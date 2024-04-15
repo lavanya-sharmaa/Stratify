@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stratify</title>
+    <link rel="icon" href="./assets/logo_org.png" type="image">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <!-- nav bar -->
+    <nav>
+        <div class="container main-nav flex">
+            <a href="./index" class="company-logo-2">
+                <img id="logo" src="./assets/logo_org.png" alt="company logo">
+            </a>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="./aboutUs.html" class="hover-link">About Us</a></li>
+                    <li><a href="./contact.html" class="hover-link primary-button">Let's Connect</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- header section -->
+    <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1 class="front-heading">We Solve all of Your Business Problems</h1>
+                <p> <strong>Stratify </strong>  is a Business Consultancy Firm Which helps Startup's and Agencies to identify and solve complex Business problems, improve their performance, and achieve their goals.</p>
+                <a href="./contact.html" class="primary-button get-started-btn">Let's Connect</a>
+            </div>
+            <div class="header-right">
+                <img src="./assets/asset2.jpg" alt="hero image">
+            </div>
+        </div>
+    </header>
+
+    <!-- companies section -->
+
+    <section class="companies-section">
+        <div class="container">
+            <div class="small-bold-text companies-header">Our Trusted Business Relationships.</div>
+            <div class="logos flex">
+                <img class="logo" src="./assets/asset3.jpg" alt="">
+                <img class="logo" src="./assets/asset9.png" alt="">
+                <img class="logo" src="./assets/asset5.png" alt="">
+                <img class="logo" src="./assets/asset6.png" alt="">
+                <img class="logo" src="./assets/asset7.png" alt="">
+                <img class="logo" src="./assets/asset8.png" alt="">
+                <img class="logo" src="./assets/asset4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- features section -->
+
+    <section class="features-section">
+        <div class="container">
+            <div class="features-header">
+                <h2 class="features-heading-text">Contact us now and start achieving your business goals</h2>
+                <a href="./contact.html" class="secondary-button">Contact Us  <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <h1 class="services">Our Services</h1>
+            <div class="features-area flex">
+                <div class="features-card flex">
+                    <img src="./assets/p1.svg" alt="assets">
+                    <h3>Strategic Planning</h3>
+                    <p> Developing a clear and comprehensive business strategy.</p>
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/p6.svg" alt="assets">
+                    <h3>Financial Consulting</h3>
+                    <p>Providing financial analysis and recommendations to help businesses .</p>
+                  
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/p2.svg" alt="assets">
+                    <h3>Marketing Consulting</h3>
+                    <p>Developing marketing and sales strategies to increase customer acquisition.</p>
+                  
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/p3.svg" alt="assets">
+                    <h3>HR Consulting</h3>
+                    <p>Providing guidance on recruiting, talent management, employee engagement.</p>
+            
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/p4.svg" alt="assets">
+                    <h3>Operations Consulting</h3>
+                    <p>Optimizing business operations by streamlining processes.</p>
+                 
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/p5.svg" alt="assets">
+                    <h3>Technology Consulting</h3>
+                    <p>Helping businesses leverage technology to enhance productivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- big features section -->
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+            <div class="feature-img">
+                <img src="./assets/asset18.png" alt="asset">
+            </div>
+            <div class="feature-desc flex">
+                <h3>Developing strategies</h3>
+                <p>Consultants work with businesses to develop clear and comprehensive strategies that align with their goals and objectives.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container" id="second-big-feature">
+            <div class="feature-img">
+                <img src="./assets/asset21.png" alt="asset">
+            </div>
+            <div class="feature-desc flex">
+                <h3>Implementing solutions</h3>
+                <p>Consultants work with businesses to implement solutions. This could involve developing new processes or procedures.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+            <div class="feature-img">
+                <img src="./assets/asset24.png" alt="asset">
+            </div>
+            <div class="feature-desc flex">
+                <h3>Evaluating results</h3>
+                <p>Consultants evaluate the results of their work to ensure that businesses achieve the desired outcomes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- examples section -->
+
+    <!-- <section class="examples-section">
+        <div class="container">
+            <div class="examples-header flex">
+                <h2 class="examples-heading-text">One platform, endless possibilities</h2>
+                <a href="#" class="secondary-button">See more examples <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="examples-area flex">
+                <a href="#" class="examples-card">
+                    <h3 class="card-text">Can user complete a task in my software interface?</h3>
+                </a>
+                <a class="examples-card" href="#" style="background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 34.jpeg); background-size: cover;">
+                    <h3 class="card-text">Can users find important pages on my website?</h3>
+                </a>
+                <a class="examples-card" href="#">
+                    <h3 class="card-text">Is my website’s intended audience clear? </h3>
+                </a>
+                <a class="examples-card" href="#">
+                    <h3 class="card-text">Do visitors understand what a page is about?</h3>
+                </a>
+            </div>
+        </div>
+    </section> -->
+<div class="head-testimonial">
+    <h2>Testimonials</h2>
+    <h3>Don't just take our word for it - hear what our clients have to say!</h3>
+</div>
+    
+<section class="container--slider">
+    <div class="testimonial mySwiper">
+      <div class="testi-content swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="images/img1.jpg" alt="asset" class="image" />
+          <p>
+            I've been working with Stratify for a few months now and they have been an invaluable asset to our business. They have provided us with expert advice on how to improve our processes, streamline our operations, and maximize profits. Their team of consultants are knowledgeable and always willing to go the extra mile to help us out. We are so glad we found them and would highly recommend their services!
+          </p>
+
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+          <div class="details">
+            <span class="name">Marnie Lotter</span>
+            <span class="job">CTO , TAZ Corp.</span>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/img2.jpg" alt="asset" class="image" />
+          <p>
+            Working with Stratify has been a great experience. They have provided us with invaluable advice on how to structure our business and maximize our profits. Their team of experienced consultants are always available to answer any questions we have, and they've helped us make the right decisions for our company's future. I highly recommend Stratify for anyone looking for a reliable business consultant!
+          </p>
+
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+          <div class="details">
+            <span class="name">Lucas</span>
+            <span class="job">Web 3 Everywhere</span>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/img3.jpg" alt="asset" class="image" />
+          <p>
+            I recently hired Stratify for a business consultancy project and I'm so glad I did! The team was professional, knowledgeable and very helpful in guiding me through the process. They provided me with great insights on how to improve my business operations and gave me sound advice on how to move forward. Highly recommend Stratify for any business consultancy needs!
+          </p>
+
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+          <div class="details">
+            <span class="name">Olive Graham</span>
+            <span class="job">Finance Enthusiast</span>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+    <!-- Swiper JS -->
+      <!--Uncomment this line-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+      <!--Uncomment this line-->
+    <script src="script.js"></script>
+</html>
+
+
+    <!-- cta section -->
+
+    <section class="cta-section">
+        <div class="container flex cta-section-container">
+            <h2 class="subfooter">Transforming Your Business, One Step at a Time!</h2subfooter>
+            <a href="#" class="primary-button">Let's Have a Coffee</a>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container flex footer-container">
+            <a href="#" class="company-logo">
+                <img src="./assets/heroo.png" alt="company logo">
+            </a>
+            <div class="link-column flex">
+                <h4>Services</h4>
+                <a href="#" class="hover-link">Strategy Planning</a>
+                <a href="#" class="hover-link">Operations Consulting</a>
+                <a href="#" class="hover-link">H.R Consulting</a>
+                <a href="#" class="hover-link">Tech Consulting</a>
+                <a href="#" class="hover-link">Marketing Consulting</a>
+            </div>
+            <div class="link-column flex">
+                <h4>Our Processes</h4>
+                <a href="#" class="hover-link">Developing strategies</a>
+                <a href="#" class="hover-link">Implementing solutions</a>
+                <a href="#" class="hover-link">Providing guidance</a>
+                <a href="#" class="hover-link">Evaluating results</a>
+                <a href="#" class="hover-link">Conducting assessments</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- subfooter -->
+
+    <div class="subfooter">
+        <br class="container flex subfooter-container">
+          
+            
+            <h4 style="text-align: center;"></h4>
+            <a style="display: flex; justify-content: center; margin: 1rem; color: black;" href="#"></a>
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+
+    </script>
+
+</body>
+</html>
